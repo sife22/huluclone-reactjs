@@ -26,4 +26,4 @@ Pour exécuter le Hulu Clone localement, suivez ces étapes :
 6. Ouvrez votre navigateur et visitez 'http://localhost:3000' pour voir le Hulu Clone.
 
 ## Déploiement
-Le Hulu Clone est hébergé sur Vercel, Vous pouvez visiter l'application déployée sur https://hulu-clone-app-mocha.vercel.app/
+Le Hulu Clone est hébergé sur Vercel, Vous pouvez visiter l'application déployée sur https://huluclone-reactjs.vercel.app/
