@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+.navbar {
+  padding: 20px;
+  width: 100%;
+  align-items: center;
+}
+
+.navbar_top {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.search_input {
+  padding: 10px;
+  border: none;
+  outline: none;
+  margin: 5px;
+  font-weight: 400;
+  border-radius: 3px;
+  font-size: 15px;
+}
+
+.search_input::placeholder {
+  font-weight: 100;
+  color: green;
+  font-family: "Poppins", sans-serif;
+}
+
+.search_button {
+  padding: 10px;
+  border-radius: 3px;
+  font-size: 15px;
+  border: none;
+  outline: none;
+}
+
+.search_button:hover {
+  background-color: #042727;
+  transition: 1s;
+  color: white;
+  cursor: pointer;
+}
+
+.search_button:not(:hover) {
+  transition: 1s;
+}
+
+.hulu_logo {
+  width: 80px;
+}
+
+.hulu_logo:hover {
+  transform: scale(1.2);
+  transition: 1s;
+}
+
+.hulu_logo:not(:hover) {
+  transition: 1s;
+}
+
+.navbar_bottom {
+  display: flex;
+  justify-content: space-between;
+  overflow-x: scroll;
+}
+
+.navbar_bottom::-webkit-scrollbar {
+  display: none;
+}
+
+.navbar_bottom h2 {
+  margin-left: 20px;
+  margin-right: 20px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar_bottom h2:hover {
+  transform: scale(1.2);
+  transition: 1s;
+  cursor: pointer;
+  color: green;
+}
+
+.navbar_bottom h2:not(:hover) {
+  transition: 1s;
+}

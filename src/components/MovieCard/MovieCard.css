@@ -1,0 +1,55 @@
+.movie_card {
+  width: 330px;
+  height: 500px;
+  padding: 10px;
+  color: white;
+}
+
+.movie_card:hover {
+  transform: scale(1.02);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.movie_card:not(:hover) {
+  transition: 0.5s;
+}
+
+.movie_card img {
+  height: 400px;
+  width: 100%;
+}
+
+.movie_title {
+  margin-top: 5px;
+  font-size: 20px;
+}
+
+.movie_overview {
+  margin-top: 3px;
+}
+
+.date_vote {
+  display: none;
+}
+
+.movie_card:hover .date_vote {
+  display: inline;
+}
+
+/* .movie_card:hover .movie_overview {
+  display: inline;
+} */
+
+.div_date_vote {
+  display: flex;
+  justify-content: space-between;
+}
+
+.movie_title:hover {
+  overflow: visible;
+}
+
+/* .movie_overview {
+  display: none;
+} */
