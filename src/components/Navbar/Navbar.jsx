@@ -22,7 +22,7 @@ function Navbar({ setSelectedOption }) {
           <input
             className="search_input"
             type="text"
-            placeholder="Search your movie .."
+            placeholder="Enter movie name..."
             onChange={(e) => setMovieName(e.target.value)}
             value={movieName}
           />
