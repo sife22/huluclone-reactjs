@@ -14,13 +14,13 @@ Il s'agit d'un clone de la populaire plateforme de streaming Hulu, développé e
 ## Pour commencer
 Pour exécuter le Hulu Clone localement, suivez ces étapes :
 1. Clonez le dépôt :
-   git clone https://github.com/sife22/hulu-clone.git
+   git clone https://github.com/sife22/huluclone-reactjs
 2. Accédez au répertoire du projet :
-   cd hulu-clone
+   cd huluclone-reactjs
 3. Installez les dépendances :
    npm install
-4. Créez un fichier '.env' dans le répertoire racine et ajoutez vos clés Firebase et API :
-   REACT_APP_TMDB_API_KEY=votre_cle_api_tmdb
+4. Créez un fichier '.env' dans le répertoire racine et ajoutez vos clés API (https://developer.themoviedb.org/reference/intro/getting-started):
+   REACT_APP_MOVIES_API_KEY=votre_cle_api
 5. Démarrez le serveur de développement :
    npm start
 6. Ouvrez votre navigateur et visitez 'http://localhost:3000' pour voir le Hulu Clone.
