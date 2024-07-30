@@ -1,14 +1,14 @@
 # Hulu Clone
-Il s'agit d'un clone de la populaire plateforme de streaming Hulu, développé en utilisant React.js.
+Il s'agit d'un clone de la populaire plateforme de streaming Hulu, développé en utilisant ReactJs.
 
 ## Fonctionnalités
-- Navigation et recherche dans une collection de films et d'émissions de télévision
-- Conception responsive s'adaptant à différentes tailles d'écran
+- Navigation et recherche dans une collection de films.
+- Conception responsive s'adaptant à différentes tailles d'écran.
 
 ## Technologies utilisées
-- React.js
-- Tailwind CSS (pour la mise en forme)
-- Axios (pour effectuer des requêtes API)
+- ReactJs
+- Tailwind CSS.
+- Axios (pour effectuer des requêtes API).
 - The Movie Database API (pour récupérer les données des films)
 
 ## Pour commencer
@@ -19,7 +19,7 @@ Pour exécuter le Hulu Clone localement, suivez ces étapes :
    cd huluclone-reactjs
 3. Installez les dépendances :
    npm install
-4. Créez un fichier '.env' dans le répertoire racine et ajoutez vos clés API (https://developer.themoviedb.org/reference/intro/getting-started):
+4. Créez un fichier '.env' dans le répertoire racine et ajoutez vos clés API (https://developer.themoviedb.org/reference/intro/getting-started) :
    REACT_APP_MOVIES_API_KEY=votre_cle_api
 5. Démarrez le serveur de développement :
    npm start
