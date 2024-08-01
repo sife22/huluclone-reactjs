@@ -5,6 +5,9 @@ Il s'agit d'un clone de la populaire plateforme de streaming Hulu, développé e
 - Navigation et recherche dans une collection de films.
 - Conception responsive s'adaptant à différentes tailles d'écran.
 
+<p align="center"><a href="#" target="_blank"><img src="./public/conception.png" width="90%" alt="App"></a></p>
+
+
 ## Technologies utilisées
 - ReactJs
 - Tailwind CSS.
